@@ -1,6 +1,8 @@
 # PyTorch Feature Volume Rotator
 
-![](optimize.gif)
+<p align="center">
+<img src="optimize.gif", width="600">
+</p>
 
 [This function](pytorch_volume_rotator.py) uses trilinear interpolation to rotate and translate feature volumes.
 Because the function is written entirely in PyTorch, it can be seamlessly plugged into a deep learning training pipeline.
