@@ -6,7 +6,7 @@
 Because the function is written entirely in PyTorch, it can be seamlessly plugged into a deep learning training pipeline.
 As a toy example, given the following output feature volumes:
 
-<p float="center">
+<p align="center">
   <img src="true_yaw_vol.jpg" width="250" />
   <img src="true_pitch_vol.jpg" width="250" />
   <img src="true_roll_vol.jpg" width="250" />
@@ -14,7 +14,7 @@ As a toy example, given the following output feature volumes:
 
 and the associated rotations that produced them, the true input feature volume (left) can be recovered from a randomly initialized feature volume (right):
 
-<p float="center">
+<p align="center">
   <img src="true_in_vol.jpg" width="250">
   <img src="initial_vol.jpg" width="250">
 </p>
@@ -31,7 +31,7 @@ python3 rotation_translation_example.py rotate
 
 produces these:
 
-<p float="center">
+<p align="center">
   <img src="yaw.gif" width="250" />
   <img src="pitch.gif" width="250" />
   <img src="roll.gif" width="250" />
@@ -43,7 +43,7 @@ python3 rotation_translation_example.py translate
 
 produces these:
 
-<p float="center">
+<p align="center">
   <img src="x.gif" width="250" />
   <img src="y.gif" width="250" />
   <img src="z.gif" width="250" />
